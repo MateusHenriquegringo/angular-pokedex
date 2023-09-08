@@ -1,0 +1,138 @@
+
+.normal {
+    background-color: #a6a877;
+}
+
+.grass {
+    background-color: #77c850;
+}
+
+.fire {
+    background-color: #ee7f30;
+}
+
+.water {
+    background-color: #678fee;
+}
+
+.electric {
+    background-color: #f7cf2e;
+}
+
+.ice {
+    background-color: #98d5d7;
+}
+
+.ground {
+    background-color: #dfbf69;
+}
+
+.flying {
+    background-color: #a98ff0;
+}
+
+.poison {
+    background-color: #a040a0;
+}
+
+.fighting {
+    background-color: #bf3029;
+}
+
+.psychic {
+    background-color: #f65687;
+}
+
+.dark {
+    background-color: #725847;
+}
+
+.rock {
+    background-color: #b8a137;
+}
+
+.bug {
+    background-color: #a8b720;
+}
+
+.ghost {
+    background-color: #6e5896;
+}
+
+.steel {
+    background-color: #b9b7cf;
+}
+
+.dragon {
+    background-color: #6f38f6;
+}
+
+.fairy {
+    background-color: #f9aec7;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-bottom: 5px;
+    color: white;
+    border-radius: 2em;
+}
+
+.container img {
+    width: 40%;
+    object-fit: cover;
+}
+
+.top {
+    display: flex;
+    padding: 1em;
+    align-items: baseline;
+    justify-content: space-around;
+    text-transform: capitalize;
+}
+.top h2 {
+    color: rgba(255, 255, 255, 0.425);
+
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+
+    background-image: url('../../assets/pokeball_PNG29.png');
+}
+
+ul li {
+    font-size: 1.5em;
+    list-style: none;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 1em;
+
+    text-align: center;
+
+    filter:saturate(200%);
+
+    box-shadow: 7px 12px 61px -2px rgba(255, 255, 255, 0.76);
+    -webkit-box-shadow: 7px 12px 61px -2px rgba(255, 255, 255, 0.76);
+    -moz-box-shadow: 7px 12px 61px -2px rgba(255, 255, 255, 0.76);
+}
+
+@media only screen and (max-width: 768px) {
+    .top {
+        padding: 0;
+    }
+    .top h1 {
+        font-size: 1.2em;
+    }
+    ul li {
+        font-size: 0.9em;
+        padding: 4px;
+        border-radius: 0.5em;
+    }
+   .main {
+    justify-content:space-around;
+   }
+  }
+  

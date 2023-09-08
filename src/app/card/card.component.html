@@ -1,0 +1,7 @@
+<div *ngIf="!listaDeInfos" class="spinner"> 
+    <p-progressSpinner styleClass="w-4rem h-4rem" strokeWidth="8" fill="var(--surface-ground)" animationDuration=".5s"></p-progressSpinner>
+</div>
+
+<div class="container" [hidden]="!listaDeInfos">
+    <app-list *ngFor="let pokemon of listaDeInfos" [pokemon]="pokemon"></app-list>
+</div>

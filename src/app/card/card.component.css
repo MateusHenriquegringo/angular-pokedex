@@ -1,0 +1,23 @@
+.container {
+    display: grid;
+    padding: 0 20vw;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 1em;
+    column-gap: 1em;
+    grid-auto-flow: row;
+
+}
+.spinner {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+.spinner p-progressSpinner {
+    margin: auto;
+}
+@media only screen and (max-width: 768px) {
+    .container {
+        padding: 0 2vw;
+    } 
+  }
+  

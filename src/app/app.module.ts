@@ -1,14 +1,20 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { ProgressSpinnerModule } from 'primeng/progressspinner';
 import { AppComponent } from './app.component';
-
+import { CardComponent } from './card/card.component';
+import { ListComponent } from './list/list.component';
+import { SkeletonModule } from 'primeng/skeleton';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CardComponent,
+    ListComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    ProgressSpinnerModule,
+    SkeletonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
